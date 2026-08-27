@@ -252,10 +252,10 @@ function explode(x: number, y: number) {
                 </ClientOnly>
             </div>
 
-            <div @click="canvaClickListener" class="w-full h-full flex justify-center   ">
-                <div class="flex gap-x-24 items-end">
-                    <img ref="left-hand" class="w-80 object-cover select-none touch-action-none pointer-events-none transition-all" src="@/assets/images/left_hand.png" />
-                    <img ref="right-hand" class="w-80 object-cover select-none touch-action-none pointer-events-none transition-all" src="@/assets/images/right_hand.png" />
+            <div @click="canvaClickListener" class="w-full h-full flex justify-center">
+                <div class="flex gap-x-5 sm:gap-x-10 lg:gap-x-24 items-end">
+                    <img ref="left-hand" class="w-52 sm:w-72 lg:w-80 object-cover select-none touch-action-none pointer-events-none transition-all" src="@/assets/images/left_hand.png" />
+                    <img ref="right-hand" class="w-52 sm:w-72 lg:w-80 object-cover select-none touch-action-none pointer-events-none transition-all" src="@/assets/images/right_hand.png" />
                 </div>
             </div>
 
