@@ -239,7 +239,7 @@ function explode(x: number, y: number) {
         
         <p class="fixed top-2 left-2 font-bold text-neutral-500 text-2xl opacity-40">In-Development</p>
 
-        <div ref="game-canvas" class="w-full h-screen sm:h-[80vh] flex flex-col justify-between items-center bg-linear-90 from-neutral-900 via-neutral-500 to-neutral-900 border-y-2 border-neutral-900 overflow-hidden">
+        <div ref="game-canvas" class="w-full h-screen sm:h-[80vh] flex flex-col justify-between items-center bg-neutral-500 border-y-2 border-neutral-900 overflow-hidden">
 
             <div class="w-full p-2 text-center">
                 <!-- <button class="text-black bg-white px-5 py-0.5 cursor-pointer">Loja</button> -->
