@@ -87,6 +87,8 @@ const canvaClickListener = (e) => {
         }
     }else auraPoints.value++;
 
+    setUserLocalRecord(auraPoints.value);
+
     verifyTask(auraPoints.value);
     shakeEffect();
 
@@ -241,7 +243,10 @@ function explode(x: number, y: number) {
                 <p ref="aura-textCounter" class="text-white font-bold text-xl font-mono select-none touch-action-none pointer-events-none transition-all">
                     Aura: <span>{{ auraPoints }}🔥</span>
                 </p>
-                <!-- <span></span> -->
+
+                <ClientOnly>
+                    <p class="text-sm text-neutral-300">Record: {{ getUserLocalRecord() }}</p>
+                </ClientOnly>
             </div>
 
             <div @click="canvaClickListener" class="w-full h-full flex justify-center   ">
