@@ -239,7 +239,7 @@ function explode(x: number, y: number) {
         
         <p class="fixed top-2 left-2 font-bold text-neutral-500 text-2xl opacity-40">In-Development</p>
 
-        <div ref="game-canvas" class="w-full h-[80vh] flex flex-col justify-between items-center bg-linear-90 from-neutral-900 via-neutral-500 to-neutral-900 border-y-2 border-neutral-900 overflow-hidden">
+        <div ref="game-canvas" class="w-full h-screen sm:h-[80vh] flex flex-col justify-between items-center bg-linear-90 from-neutral-900 via-neutral-500 to-neutral-900 border-y-2 border-neutral-900 overflow-hidden">
 
             <div class="w-full p-2 text-center">
                 <!-- <button class="text-black bg-white px-5 py-0.5 cursor-pointer">Loja</button> -->
@@ -253,9 +253,9 @@ function explode(x: number, y: number) {
             </div>
 
             <div @click="canvaClickListener" class="w-full h-full flex justify-center">
-                <div class="flex gap-x-5 sm:gap-x-10 lg:gap-x-24 items-end">
-                    <img ref="left-hand" class="w-52 sm:w-72 lg:w-80 object-cover select-none touch-action-none pointer-events-none transition-all" src="@/assets/images/left_hand.png" />
-                    <img ref="right-hand" class="w-52 sm:w-72 lg:w-80 object-cover select-none touch-action-none pointer-events-none transition-all" src="@/assets/images/right_hand.png" />
+                <div class="flex gap-x-2 min-[450px]:gap-x-5 sm:gap-x-10 lg:gap-x-24 items-end">
+                    <img ref="left-hand" class="w-44 min-[450px]:w-52 sm:w-72 lg:w-80 object-cover select-none touch-action-none pointer-events-none transition-all" src="@/assets/images/left_hand.png" />
+                    <img ref="right-hand" class="w-44 min-[450px]:w-52 sm:w-72 lg:w-80 object-cover select-none touch-action-none pointer-events-none transition-all" src="@/assets/images/right_hand.png" />
                 </div>
             </div>
 
