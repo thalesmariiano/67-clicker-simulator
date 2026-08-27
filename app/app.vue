@@ -236,6 +236,9 @@ function explode(x: number, y: number) {
 
 <template>
     <div class="w-full h-screen flex items-center bg-neutral-800 overflow-hidden">
+        
+        <p class="fixed top-2 left-2 font-bold text-neutral-500 text-2xl opacity-40">In-Development</p>
+
         <div ref="game-canvas" class="w-full h-[80vh] flex flex-col justify-between items-center bg-linear-90 from-neutral-900 via-neutral-500 to-neutral-900 border-y-2 border-neutral-900 overflow-hidden">
 
             <div class="w-full p-2 text-center">
