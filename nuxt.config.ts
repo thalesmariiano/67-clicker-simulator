@@ -9,6 +9,7 @@ export default defineNuxtConfig({
       tailwindcss(),
     ],
   },
+  modules: ['@vercel/speed-insights'],
   app: {
       head: {
         htmlAttrs: {
