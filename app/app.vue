@@ -1,6 +1,13 @@
 <script setup lang="ts">
 import gsap from 'gsap';
 
+useSeoMeta({
+    title: "67 Clicker Simulator",
+    description: "67 Clicker Simulator! Farm a lot of aura and climb the ranks!",
+    ogTitle: "67 Clicker Simulator",
+    ogDescription: "67 Clicker Simulator! Farm a lot of aura and climb the ranks!"
+});
+
 const auraPoints = ref<number>(0);
 const clickCount = ref<number>(0);
 // const lastClickTime = ref<number>(0);
